@@ -1,0 +1,23 @@
+.nav{
+    width: 250px;
+    height: 100vh;
+    background-color: #191919;
+
+    .nav_content{
+        height: 50px;
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        line-height: 50px;
+        p{
+            padding-left: 20px;
+            color: #fff;
+            font-size: 20px;
+            font-weight: 500;
+            margin: unset;
+            &:hover{
+                background-color: #ccc;
+                color: #000;
+            }
+        }
+    }
+}
