@@ -14,10 +14,12 @@ function Body() {
             <p>
               <b>Lorem ipsum dolor sit asmet?</b>
             </p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-            eos natus earum impedit amet dolore dolorum quibusdam, maiores odit.
-            Nesciunt nam quod officiis dolorum neque est sint atque aspernatur
-            quis!
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
+                eos natus earum impedit amet dolore dolorum quibusdam, maiores odit.
+                Nesciunt nam quod officiis dolorum neque est sint atque aspernatur
+                quis!
+            </p>
           </div>
         </div>
         <div>

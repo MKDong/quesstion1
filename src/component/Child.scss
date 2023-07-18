@@ -1,20 +1,37 @@
-.box {
-  width: 300px;
-  .box_content {
-    position: relative;
-  }
+$phone-down-small: "(max-width: 576px)";
 
-  .box_content img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px; /* Chiều rộng của hình ảnh */
-    height: auto;
-    margin: 0;
-    padding: 0;
-  }
+.container {
+  display: flex;
+  justify-content: space-between;
 
-  .box_content p {
-    text-align: justify;
+  @media (max-width: 600px) {
+    display: block;
+  }
+  .box {
+    width: 30%;
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+    p {
+      font-weight: 700;
+    }
+    .box_content {
+      .drop_cap {
+        float: left;
+        margin-right: 10px;
+        img {
+          width: 100px;
+          height: 100px;
+          @media (max-width: 600px) {
+            width: 70px;
+            height: 70px;
+          }
+        }
+      }
+      p {
+        font-size: 12px;
+        font-weight: unset;
+      }
+    }
   }
 }
